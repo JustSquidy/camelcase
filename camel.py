@@ -1,3 +1,5 @@
+"""Camlel Case Program"""
+
 def camelcase(sentence):
     """
     Convert a sentence to camelCase
@@ -9,10 +11,11 @@ def camelcase(sentence):
     return upper_camel_cased[0:1].lower() + upper_camel_cased[1:]
 
 def instructions():
+    """ Display program instructions and how to use program"""
     print("This program converts a sentence into camelCase format.")
 
 def banner():
-    """ Display Program name"""
+    """ Display Program name using stars"""
     message = "Camel Case Program"
     stars = '*' * len(message)
     print(f'\n{stars} \n{message} \n{stars} \n')
